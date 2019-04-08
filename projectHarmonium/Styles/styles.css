@@ -1,0 +1,42 @@
+.header {
+  text-align: center;
+}
+
+.harmonium-keys {
+  padding: 0;
+  border: none;
+  background: none;
+  position: relative;
+
+}
+
+.harmonium-key-image {
+  position: relative;
+}
+
+.harmonium-keys-black {
+  position: relative;
+  bottom: 106px;
+  right: 36px;
+  z-index: 1;
+}
+
+.harmonium-key-image-whiteMiddle {
+  position: relative;
+  top: 1px;
+  right: 55px;
+  transform: rotate(1deg);
+}
+
+.harmonium-keys-white-right {
+  position: relative;
+  top: 1px;
+  right: 110px;
+}
+
+.harmonium-keys-white-left {
+  position: relative;
+  top: 1px;
+  right: 120px;
+  transform: rotate(359.5deg);
+}
